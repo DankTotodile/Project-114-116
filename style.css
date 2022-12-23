@@ -1,0 +1,16 @@
+body
+{
+ background-image: url("background.jpg");
+}
+canvas
+{
+    animation-name: sample;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes sample
+{
+0% {box-shadow: 2px 2px 18px cyan;}
+50% {box-shadow: 2px 2px 18px teal;}
+100% {box-shadow: 2px 2px 18px cyan;}
+}
